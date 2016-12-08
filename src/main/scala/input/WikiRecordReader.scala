@@ -119,7 +119,7 @@ class WikiRecordReader extends RecordReader[LongWritable, Text] {
   }
 
   /**
-    * Get the progress within the split
+    * Get the progress update within the split
     */
   @throws(classOf[IOException])
   def getProgress: Float = {

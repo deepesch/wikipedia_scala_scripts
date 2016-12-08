@@ -21,10 +21,11 @@ package input
 import java.io.IOException
 import org.apache.hadoop.classification.InterfaceAudience
 import org.apache.hadoop.classification.InterfaceStability
+import org.apache.hadoop.mapred._
 import org.apache.hadoop.fs._
 import org.apache.hadoop.io.LongWritable
 import org.apache.hadoop.io.Text
-import org.apache.hadoop.mapred._
+
 
 /**
   * An {@link InputFormat} for wikipedia xml dump files.  Files are broken into articles
